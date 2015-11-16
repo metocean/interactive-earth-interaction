@@ -1,0 +1,20 @@
+{
+  "name": "interactive-earth-interaction",
+  "version": "1.0.0",
+  "description": "Interaction for interactive earth",
+  "main": "index.js",
+  "dependencies": {
+    "hammerjs": "2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocean/interactive-earth-interaction.git"
+  },
+  "author": "MetOcean Solutions Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metocean/interactive-earth-interaction/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/metocean/interactive-earth-interaction#readme"
+}
