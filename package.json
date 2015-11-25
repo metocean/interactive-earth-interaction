@@ -1,7 +1,7 @@
 {
   "name": "interactive-earth-interaction",
   "version": "1.0.0",
-  "description": "Interaction for interactive earth",
+  "description": "Receive mouse and touch events from an interactive earth layer.",
   "main": "index.js",
   "dependencies": {
     "hammerjs": "2.0.4"
