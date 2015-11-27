@@ -23,6 +23,8 @@ module.exports = (options) ->
     onEnd()
   hammer = null
   afterMount: (el, projection) ->
+    if options.classname?
+      el.className += " #{options.classname}"
     hammer = new hammerjs el, {}
     hammer.get('pan').set direction: hammerjs.DIRECTION_ALL
     hammer.get('pinch').set enable: yes

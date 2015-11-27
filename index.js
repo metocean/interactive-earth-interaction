@@ -51,6 +51,9 @@ module.exports = function(options) {
   hammer = null;
   return {
     afterMount: function(el, projection) {
+      if (options.classname != null) {
+        el.className += " " + options.classname;
+      }
       hammer = new hammerjs(el, {});
       hammer.get('pan').set({
         direction: hammerjs.DIRECTION_ALL
