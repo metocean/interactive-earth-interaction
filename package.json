@@ -1,6 +1,6 @@
 {
   "name": "interactive-earth-interaction",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Receive mouse and touch events from an interactive earth layer.",
   "main": "index.js",
   "dependencies": {
